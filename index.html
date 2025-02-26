@@ -23,11 +23,11 @@
                 </span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i> About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i> Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i> Contact</a></li>
+                <li><a href="#home" class="nav-link"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fa fa-user"></i> About</a></li>
+                <!---<li><a href="#"><i class="fa fa-list"></i> Services</a></li> -->
+                <li><a href="#portfolio" class="nav-link"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <!--- <li><a href="#"><i class="fa fa-comments"></i> Contact</a></li> -->
             </ul>
         
         </div>
@@ -36,7 +36,7 @@
         <!----------Main Content Start-->
         <div class="main-content">
             <!--------Home Section Start-->
-            <section class="home section hidden">
+            <section id="home" class="home section">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -45,7 +45,7 @@
                             </h3>
                             <h3 class="my-profession">Data Analyst | Software Engineer</h3>
                             <p> I am Data Analyst with a over 5 years experience. My expertise is to get the best insights pt of the data.</p>
-                            <a href="#contact" class="btn hire-me">Contact Me</a>
+                            <a href="#about" class="btn hire-me">Contact Me</a>
                         </div>
                         <div class="home-img padd-15">
                             <img src="images/1724409625394.jpg" alt="">
@@ -55,24 +55,275 @@
             </section>
             <!--------Home Section End-->
             <!--------About Section Start-->
-            <section class="about section">
+            <section id="about" class="about section">
                 <div class="container">
                     <div class="section-title padd-15">
                         <h2>About Me</h2>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="about-content padd-15">
-                        <div class="row">
-                            <div class="about-text padd-15">
-                                <h3>I'm Brian Kipkemboi <span> Data Analyst | Software Engineer</span></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate animi totam sed adipisci, ex numquam. Ipsum blanditiis veniam accusantium laboriosam deleniti consectetur quis, aspernatur dolore cupiditate aliquid perspiciatis repudiandae!</p>
+                
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>I'm Brian Kipkemboi <span> Data Analyst | Software Engineer</span></h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate animi totam sed adipisci, ex numquam. Ipsum blanditiis veniam accusantium laboriosam deleniti consectetur quis, aspernatur dolore cupiditate aliquid perspiciatis repudiandae!</p>
+                                </div>
                             </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="info-item padd-15">
+                                        <p>Email : <span>kipkemboi.brian@yahoo.com</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Mobile : <span>+254715372443</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>City : <span>Nairobi</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="skills padd-15">
+                                    <div class="skill-item padd-15">
+                                        <h5>Python</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 78%;"></div>
+                                            <div class="skill-percent">78%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skill-item padd-15">
+                                        <h5>SQL</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 88%;"></div>
+                                            <div class="skill-percent">88%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skill-item padd-15">
+                                        <h5>Power BI</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 85%;"></div>
+                                            <div class="skill-percent">85%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skill-item padd-15">
+                                        <h5>Looker Studio</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 85%;"></div>
+                                            <div class="skill-percent">85%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="skill-item padd-15">
+                                        <h5>Data Built Tools (DBT)</h5>
+                                        <div class="progress">
+                                            <div class="progress-in" style="width: 76%;"></div>
+                                            <div class="skill-percent">76%</div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2024 - 2025
+                                                    </h3>
+                                                    <h4 class="timeline-title">Prodev BackEnd</h4>
+                                                    <h4 class="timeline-text">ALX</h4>
+                                                    <p>A hands-on backend development program covering advanced concepts in databases, APIs, and system architecture to build scalable applications.</p>
+                                                </div>
+                                                
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2022 - 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Software Engineering</h4>
+                                                    <h4 class="timeline-text">ALX</h4>
+                                                    <p>An intensive program focused on full-stack development, algorithms, and software design principles, preparing for real-world engineering challenges.</p>
+                                                </div>
+                                                
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2022 - 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title">Data Analytics - Nanodegree</h4>
+                                                    <h4 class="timeline-text">ALX</h4>
+                                                    <p>A specialized course in data analytics covering SQL, Python, data visualization, and business intelligence tools for data-driven decision-making.</p>
+                                                </div>
+                                                
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2011 - 2016
+                                                    </h3>
+                                                    <h4 class="timeline-title">BSC. Biosystems Engineering</h4>
+                                                    <h4 class="timeline-text">University of Nairobi</h4>
+                                                    <p>An interdisciplinary degree integrating engineering, and environmental science to develop sustainable solutions in agriculture and technology.</p>
+                                                </div>
+                                                
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="education padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2024 - Current
+                                                    </h3>
+                                                    <h4 class="timeline-title">Senior Data Analyst</h4>
+                                                    <h4 class="timeline-text">Equity Bank Kenya</h4>
+                                                    <ul>
+                                                        <li>Collaborated with the IT governance team to design analytics solutions for access reviews, ensuring compliance and operational efficiency.</li>
+                                                        <li>Automated data extraction processes using Python and SQL, integrating real-time data into Power BI dashboards to enhance reporting efficiency and enable data-driven decision-making.</li>
+                                                        <li>Built scalable database models and optimized SQL queries for real-time data analysis.</li>
+                                                        <li>Provided actionable insights to the audit function, identifying process gaps and recommending corrective actions.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2022 - 2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">Data Analyst</h4>
+                                                    <h4 class="timeline-text">Watu Africa</h4>
+                                                    <ul>
+                                                        <li>Using Looker Studio to generate and maintain company-wide reports and dashboards that support 7 subsidiaries across Africa.</li>
+                                                        <li>Utilizing the DBT tool to create models that optimize costs in terms of data processing. </li>
+                                                        <li>Generating insights using Python to evaluate the performance of insurance claims.</li>
+                                                        <li>Conducted A/B testing to determine effects of calling clients on repayments progress.</li>
+                                                        <li>Development of machine learning model for sales prediction using ARIMA. </li>
+                                                    </ul>
+                                                </div>
+                                                
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2018 - 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title">Data Analytics - Nanodegree</h4>
+                                                    <h4 class="timeline-text">Equity Bank Kenya</h4>
+                                                    <ul>
+                                                        <li>Prepared Vintage analysis to show repayment trends overtime using Python.</li>
+                                                        <li>Prepared dashboards to track arrears using powerBI </li>
+                                                        <li>Generating insights using Python to evaluate the performance of insurance claims.</li>
+                                                        <li>Utilizing industry best practices in writing SQL queries to ensure efficient, contributing to improved data retrieval and processing within the organization.</li>
+                                                        <li>Development of credit scoring model for digital loans limit allocation.</li>
+                                                    </ul>
+                                                </div>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
+                
             </section>
             <!--------About Section End-->
+
+            <!------Portfolio Start-->
+            <section id="portfolio" class="portfolio section">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2> Recent Projects</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <div class="portfolio-overlay">
+                                        <img src="images/Churn.png" alt="">
+                                        <div class="portfolio-text">Customer Churn Analysis</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://lookerstudio.google.com/reporting/d68a1582-090b-4436-af16-8427c1687a51/page/p_q5s6h9b1nd/edit" target="_blank">
+                                        <div class="portfolio-overlay">
+                                            <img src="images/Inventory.png" alt="">
+                                            <div class="portfolio-text">Inventory Analysis</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://lookerstudio.google.com/reporting/6cbf460c-dee4-4172-aa66-6773d9e2df5e/page/CIVSE/edit" target="_blank">
+                                        <div class="portfolio-overlay">
+                                            <img src="images/Klima.png" alt="">
+                                            <div class="portfolio-text">Climate Data Analysis</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <a href="https://is-it-breast-cancer.streamlit.app/" target="_blank">
+                                        <div class="portfolio-overlay">
+                                            <img src="images/is_it.png" alt="">
+                                            <div class="portfolio-text">Breast Cancer Prediction App</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    
+                    
+
+                </div>
+
+            </section>
+            <!------Portfolio End-->
 
         </div>
         <!----------Main Content Start-->
